@@ -1,0 +1,188 @@
+@font-face {
+  font-family: bauhaus93;
+  src: url("./fonts/BAUHS93.ttf");
+}
+
+.Home,
+.giftPage {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #B8E0EC;
+  background: url("./images/brooke-lark.jpg")no-repeat center fixed;
+  background-size: cover;
+  font-family: Helvetica;
+}
+
+.gift_who_info > h3 {
+  background: rgb(223, 86, 32);
+  padding: 6px;
+}
+.Home > h2 {
+  font-size:6rem;
+  letter-spacing: -4px;
+  line-height: 2.4;
+  color: rgb(223, 86, 32);
+  font-family: bauhaus93;
+  
+}
+
+.parg {
+  color: #fff;
+  flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  background: rgb(185, 99, 65);
+  padding: 4px;
+  border-radius: 5px;
+  margin-top : 140px;
+  line-height: 15px;
+}
+div > * {
+  margin: 0;
+
+
+}
+
+.gift_main_inner {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.8;
+}
+
+
+.headings {
+  text-transform: uppercase;
+  font-family: bauhaus93;
+  font-size: 37px;
+  letter-spacing: -1px;
+  line-height: 0.8;
+  color: rgb(12, 129, 145);
+  line-height: 75px;
+  
+}
+
+input:first-child {
+  padding: 11px;
+}
+
+/* style all the inputs */
+input {
+  width: 250px;
+  padding: 7px;
+  border: none;
+  outline: none;
+}
+
+/* style all the buttons */
+.btn {
+  padding: 16px;
+  margin: 40px;
+  cursor: pointer;
+  background: rgb(12, 129, 145);
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-family: bauhaus93;
+}
+
+/* style gift page */
+
+.gift_form {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
+}
+.gift_who_info
+{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  margin-top: 24px;
+  letter-spacing: 1px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.gift_form > * {
+  margin-bottom: 13px;
+}
+.gift_main_wrapper {
+  background: url("./images/brooke-lark-1.jpg");
+  background-size: cover;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+}
+
+.sent_gifts {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.gift {
+  width: 140px;
+  height: 140px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50%;
+  background: rgb(65, 185, 85);
+}
+
+.btn_remove {
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(12, 129, 145);
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-family: bauhaus93;
+}
+@media (max-width: 767px) {
+  .Home > h2 {
+    font-size:3rem;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: rgb(223, 86, 32);
+    font-family: bauhaus93;
+  }
+}
+@media (max-width: 767px) {
+  .gift_main_inner  {
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+  }
+  .sent_gifts {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 360px) {
+.headings {
+  margin-top: 50px;
+  flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+}
+
+ 
+  
+  
